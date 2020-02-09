@@ -18,7 +18,7 @@ Project Structure
 
 ```
   .
-  ├── .env                       <- computing environment for your code and third party tools (such as installing docker, sync files)
+  ├── .env                       <- Computing environment for your code and third party tools (such as installing docker, sync files)
   │   ├── bin
   │   │   ├── get-docker.sh
   │   │   ├── get-miniconda3.sh
@@ -26,7 +26,7 @@ Project Structure
   │   │   ├── smartcdp-mac
   │   │   └── smartcdp.exe
   │   └── lib
-  │   └── miniconda3              <- environment for miniconda3 (all deps are installed into the directory, such choppy-pipe, choppy-report etc.)
+  │   └── miniconda3              <- Environment for miniconda3 (all deps are installed into the directory, such choppy-pipe, choppy-report etc.)
   ├── bin                         <- Your compiled model code can be stored here (not tracked by git)
   ├── config                      <- Configuration files, e.g., for doxygen or for your model/scripts/tools if needed
   │   ├── choppy.conf.example
