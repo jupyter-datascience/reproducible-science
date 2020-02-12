@@ -8,7 +8,7 @@ Project Organization
 
 ```
   .
-  ├── .env                       <- Computing environment for your code and third party tools (such as installing docker, sync files)
+  ├── env                       <- Computing environment for your code and third party tools (such as installing docker, sync files)
   │   ├── bin
   │   │   ├── get-docker.sh
   │   │   ├── get-miniconda3.sh
@@ -58,6 +58,7 @@ Project Organization
   ├── LICENSE
   ├── Makefile
   ├── README.md
+  ├── secrets
   ├── conda_packages.txt
   └── requirements.txt
 ```
